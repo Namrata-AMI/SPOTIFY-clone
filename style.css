@@ -23,7 +23,7 @@ body{
     display:flex;
     width:640px;
     height:100%;
-    overflow-x: hidden  ;
+    overflow-x: hidden;
     flex:1;
     color:aliceblue;
     border-radius: 1rem;
@@ -31,7 +31,7 @@ body{
 }
 
 .player{
-    background-color: #121212;
+    background-color:black;
     position:fixed;
     bottom:0;
     width:100%;
@@ -87,7 +87,7 @@ body{
     height:40px;
     text-decoration: none;
     justify-content: center;
-    padding:0.35rem 0.85rem; 
+   padding:0.35rem 0.85rem; 
 }
 
 .search{
@@ -206,7 +206,7 @@ body{
 
 
 .rect{
-    overflow:scroll;
+    overflow-x: hidden;
 }
 
 
@@ -410,6 +410,10 @@ margin-top: 0.7rem;
     margin-left:-49.5rem;           /*56rem */
     margin-top:3rem; 
     display:inline-block;     
+}
+
+.artist{
+    margin-left:-29rem;
 }
 
 .charlie{
@@ -916,14 +920,14 @@ margin-top: 0.7rem;
     border-radius: 50%; 
 }
 
-.throw h4{
+.throw2 h4{
     text-align:left;
     margin:1rem;
     margin-top:-0.5rem;
     font-size: 18px;
 }
 
-.throw p{
+.throw2 p{
     text-align: left; 
     margin:1rem;
     margin-top:-1rem;
@@ -950,7 +954,7 @@ margin-top: 0.7rem;
 .throw3 h4{
     text-align:left;
     margin:1rem;
-    margin-top:-0.5rem;
+    margin-top:-0.4rem;
     font-size: 18px;
 }
 
@@ -960,3 +964,218 @@ margin-top: 0.7rem;
     margin-top:-1rem;
     font-size: 12px;   
 }   
+
+.company-info{
+    margin-top:122rem;
+    margin-left:-48rem;
+    padding:2rem;
+    color:rgb(124, 125, 128);
+}
+
+.company-info2{
+    margin-top:122rem;
+    margin-left:5rem;
+    padding:2rem;
+    color:rgb(124, 125, 128);
+}
+
+.company-info3{
+    margin-top:140rem;
+    margin-left:-25rem;
+    padding:2rem;
+    padding-bottom:2rem;
+    color:rgb(124, 125, 128);
+}
+
+.co{
+    color:#fff;
+}
+
+.company-info3{
+    margin-top:140rem;
+    margin-left:-25rem;
+    padding:2rem;
+ 
+}
+
+
+.company-info4{
+    margin-top:150rem;
+    margin-left:-11.6rem;
+    padding:2rem;
+    padding-bottom:20rem;
+    display: flex;
+    word-spacing: 2px;
+}
+
+.company-info4 h5{
+    padding: 0.6rem;
+    font-weight: 500;
+    opacity: 0.6;
+}
+
+.company-info5{
+    margin-top:149.67rem;
+    margin-left:1rem;
+    padding:3rem;
+    padding-bottom:15rem; 
+    opacity: 0.6;
+}
+
+.company-info5 h5{
+    font-weight: 300;
+}
+
+.player{
+    display:flex;
+    justify-content:center;
+    align-content: center;
+}
+
+.album{
+    width:25%;
+   }
+
+.music-player{
+    width:50%;  
+}
+
+.controls{
+    width:25%;
+}
+
+.player-icon{
+    height:1rem;
+    margin-right: 1.75rem;
+    opacity:0.7;
+    margin-top: 1rem;
+}
+
+.player-icon:hover{
+    opacity: 1;
+}
+
+.player-controls{
+    display: flex;
+    justify-content:center;
+    align-content: center;
+}
+
+.playback-bar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-bar{
+    width:70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.progress-bar::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height:0.2rem;
+}
+
+.progress-bar::-webkit-slider-thumb{
+    appearance:none;
+    height:1rem;
+    width:1rem;
+    background-color: #1bd760;
+    border-radius:50%;
+    margin-top: -6px;
+}
+
+.album{
+    display: flex;
+}
+
+.album img{
+    width:3.2rem;
+    height:2.7rem;
+    margin-left:2rem;
+    margin-top:1rem;
+}
+
+.album h5{
+    font-weight: 550;
+    margin-top:1.5rem;
+    margin-left:1rem;
+}
+
+.album p{
+    font-size:0.7rem;
+    margin-top:2.8rem;
+    margin-left:-4.8rem;
+}
+
+.album .album-img{
+    width:1.5rem;
+    height:1.5rem;    
+    margin-top: 1.5rem;
+    margin-left:3.8rem;
+}
+
+.album .album-img2{
+    width:1.5rem;
+    height:1.5rem;    
+    margin-top: 1.5rem;
+    margin-left:1.5rem;
+}
+
+.controls{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.control-icon{
+    width:1.5rem;
+    height:1.5rem;
+    justify-content:space-evenly;
+    align-items: center;
+    margin:0.7rem;
+    margin-top:1.3rem;
+}
+
+.controls .ra{
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.controls.ra::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height:0.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
